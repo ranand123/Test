@@ -14,7 +14,6 @@ public class Runner {
 	       suites.add(System.getProperty("user.dir")+"//testng.xml");
 	       testng.setTestSuites(suites);
 	       testng.addListener(tla);
-	       
 	       testng.run();
 	}
 
