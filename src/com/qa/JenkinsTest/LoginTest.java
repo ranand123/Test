@@ -12,6 +12,9 @@ public class LoginTest {
 	int a;
 	String test="123";
 	
+	
+	
+	
 	@BeforeTest
 	public void initObj() {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
