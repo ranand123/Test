@@ -14,7 +14,7 @@ public class Runner {
 	       TestNG testng = new TestNG();
 	       System.out.println(System.getProperty("user.dir"));
 	   	
-	       suites.add(System.getProperty("user.dir")+"//ws//testng.xml");
+	       suites.add("C://WINDOWS//system32//config//systemprofile//AppData//Local//Jenkins//.jenkins//workspace//WorkdayMaven//testng.xml");
 	       testng.setTestSuites(suites);
 	       testng.addListener(tla);
 	       testng.run();
