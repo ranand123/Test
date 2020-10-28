@@ -23,7 +23,7 @@
         <version>3.0.0-M1</version>
          <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>C:/WINDOWS/system32/config/systemprofile/AppData/Local/Jenkins/.jenkins/workspace/WorkdayMaven/src/com/qa/Runner/testng.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
          </configuration> 
       </plugin>
