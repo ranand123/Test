@@ -23,7 +23,6 @@ public class LoginTest {
 	{
 	report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
 	test = report.startTest("ExtentDemo");
-	System.out.println(System.getProperty("File"));
 	}
 	
 	@BeforeTest
