@@ -12,6 +12,8 @@ public class Runner {
 		
 	       TestListenerAdapter tla = new TestListenerAdapter();
 	       TestNG testng = new TestNG();
+	       System.out.println(System.getProperty("user.dir"));
+	   	
 	       suites.add(System.getProperty("user.dir")+"//testng.xml");
 	       testng.setTestSuites(suites);
 	       testng.addListener(tla);
