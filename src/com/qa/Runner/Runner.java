@@ -9,7 +9,7 @@ public class Runner {
 	
 	public static void main(String[] args)  {
 		  List<String> suites = Lists.newArrayList();
-		
+		//
 	       TestListenerAdapter tla = new TestListenerAdapter();
 	       TestNG testng = new TestNG();
 	       suites.add(System.getProperty("user.dir")+"//testng.xml");
